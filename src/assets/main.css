@@ -1,0 +1,98 @@
+@import './base.css';
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0 solid #ddd;
+  overflow: hidden !important;
+}
+
+p, a, td {
+  text-shadow: .1rem .1rem .25rem #00ff00;
+}
+
+td .btn {
+  text-shadow: 0rem 0rem 0rem green;
+}
+
+.swal2-popup {
+  text-shadow: .15rem .15rem .25rem rgba(0, 255, 0, 0.793);
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#canvas {
+  position: fixed;
+}
+
+#footer .btn:hover, .hover:hover, .dropdown-item:hover {
+  background-color: rgba(12, 247, 126, 0.714) !important;
+  color: black !important;
+}
+
+.popper-link:hover, .popper-link:active, .popper-link:focus {
+  text-shadow: .5rem .5rem .5rem #00ff00;
+}
+
+.popper-link {
+  transition: text-shadow .5s;
+}
+
+.popper-link:focus, .popper-link:active, .popper-link:visited {
+  text-shadow: .5rem .5rem .5rem #c8ff00;
+  transition: text-shadow .5s;
+}
+
+.popper:hover {
+  box-shadow: .25rem .25rem 2rem #c8ff00b6;
+}
+
+.popper:active, .popper:focus {
+  box-shadow: .25rem .25rem 2rem #00ff00;
+  transition: box-shadow .5s;
+}
+
+.popper {
+  transition: box-shadow .5s, background-color .5s;
+}
+
+.popper-text{
+  color: black;
+  transition: text-shadow .5s;
+}
+
+.popper-text:hover{
+  text-shadow: .25rem .25rem 1rem #00ff00;
+}
+
+.popper-lite {
+  transition: box-shadow .5s;
+}
+
+.popper-lite:hover {
+  box-shadow: .25rem .25rem 1rem #00ff00;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+#bg {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
