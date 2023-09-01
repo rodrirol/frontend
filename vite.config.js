@@ -13,5 +13,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: '/frontend-k63nwknh8-rodrirol.vercel.app/'
+  base: '/frontend-chi-blue.vercel.app/'
 })
